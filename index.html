@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open World Gun Game</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="game-ui">
+      <div id="topbar">
+        <div class="stat"><span>Cash</span><strong id="cash">$0</strong></div>
+        <div class="stat"><span>Health</span><strong id="health">100</strong></div>
+        <div class="stat"><span>Weapon</span><strong id="weapon">Pistol</strong></div>
+        <div class="stat"><span>Car</span><strong id="car-status">Away</strong></div>
+      </div>
+
+      <div id="message-box">Explore the city. Press E near a car. Press F near a store.</div>
+
+      <div id="crosshair"></div>
+
+      <div id="controls">
+        <span>WASD Move</span>
+        <span>E Enter/Exit Car</span>
+        <span>F Interact</span>
+        <span>Click Shoot</span>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
